@@ -4,7 +4,7 @@ class Movie{
     constructor(public age: number ,public disc: boolean){
     }
     calcule(age: number): number{
-        let price: number = 0 ;
+        let price: number = 60 ;
         if(age > 12) {
             price =  60;
         }else if(age <= 13-59){
